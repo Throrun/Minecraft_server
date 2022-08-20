@@ -4,3 +4,8 @@ main: myfirstplugin.myfirstplugin.MyFirstPlugin
 api-version: 1.19
 authors: [ Throrun ]
 description: This is my first plugin
+commands:
+  login:
+    description: Allows player log in to the server.
+    usage: /login global_password
+    aliases: l global_password

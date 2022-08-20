@@ -10,8 +10,8 @@ public final class MyFirstPlugin extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         Bukkit.getLogger().info("My first plugin WORK");
-
-        getCommand("")
+        String global_password = "test";
+        getCommand("login").setExecutor(new Login());
     }
 
     @Override
